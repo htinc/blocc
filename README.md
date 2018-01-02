@@ -1,6 +1,8 @@
 # blocc
 The infinitely scaleable blockchain
 
+[Offical project website](https://dotcdn.us/blocc)
+
 ## Time is always against you
 Current blockchain implementations put transactions onto blocks that renew with a given interval. BitCoin and Ethereum aren't made for a real life environment where you'd have 15000 transactions per second (Thats what Visa currently processes). The BitCoin network is already at it's peak capacity. In our implementation, blocks are mined every time the block has reached it's maximum size. That makes our system infinitely scaleable
 
